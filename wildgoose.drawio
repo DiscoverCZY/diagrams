@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T13:34:38.373Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="Yyh5vS0vQZzjs_cuxU6n" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-28T13:35:02.530Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="CzSsPpt3V8mCWh2wgQda" version="17.2.4" type="github">
   <diagram id="eaCFjg7BmeMbXCxSYOaL" name="第 1 页">
-    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,17 +22,11 @@
         <mxCell id="rt1KR4czZhUFX1XvC9Yj-91" value="Mysql Database Master/Slave Cluster" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-83">
           <mxGeometry x="586" y="460" width="310" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rt1KR4czZhUFX1XvC9Yj-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;labelBorderColor=none;fontFamily=Comic Sans MS;" edge="1" parent="rt1KR4czZhUFX1XvC9Yj-83" source="rt1KR4czZhUFX1XvC9Yj-93" target="rt1KR4czZhUFX1XvC9Yj-100">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="rt1KR4czZhUFX1XvC9Yj-93" value="Service Resiger&lt;br&gt;（Nacos）" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-83">
           <mxGeometry x="230" y="140" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rt1KR4czZhUFX1XvC9Yj-94" value="Config Center&lt;br&gt;（Nacos）" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-83">
           <mxGeometry x="230" y="220" width="170" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="rt1KR4czZhUFX1XvC9Yj-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;labelBorderColor=none;fontFamily=Comic Sans MS;" edge="1" parent="rt1KR4czZhUFX1XvC9Yj-83" source="rt1KR4czZhUFX1XvC9Yj-96" target="rt1KR4czZhUFX1XvC9Yj-98">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rt1KR4czZhUFX1XvC9Yj-96" value="Service&amp;nbsp;Limitation &amp;amp; baffle&lt;br&gt;（Sentinel）" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-83">
           <mxGeometry x="230" y="295" width="170" height="60" as="geometry" />
