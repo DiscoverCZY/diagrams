@@ -1,27 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T12:47:36.870Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="6MjSw_8L9_UZttkrQ0CX" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-28T12:52:00.733Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="0djty6_umjE7bziD-gaD" version="17.2.4" type="github">
   <diagram id="eaCFjg7BmeMbXCxSYOaL" name="第 1 页">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rt1KR4czZhUFX1XvC9Yj-10" value="DevOps" style="swimlane;startSize=20;horizontal=1;childLayout=treeLayout;horizontalTree=0;resizable=1;containerType=tree;fontFamily=Comic Sans MS;labelBorderColor=none;sketch=0;glass=0;rounded=0;resizeWidth=0;" vertex="1" parent="1">
-          <mxGeometry x="410" y="250" width="280" height="190" as="geometry" />
+        <mxCell id="rt1KR4czZhUFX1XvC9Yj-42" value="MicroService Platform（PAAS）" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=0;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="350" y="140" width="460" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="rt1KR4czZhUFX1XvC9Yj-11" value="Root" style="whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;labelBorderColor=none;sketch=0;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-10">
-          <mxGeometry x="90" y="40" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="rt1KR4czZhUFX1XvC9Yj-12" value="Child 1" style="whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;labelBorderColor=none;sketch=0;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-10">
-          <mxGeometry x="20" y="130" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="rt1KR4czZhUFX1XvC9Yj-13" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;fontFamily=Comic Sans MS;labelBorderColor=none;sketch=0;" edge="1" parent="rt1KR4czZhUFX1XvC9Yj-10" source="rt1KR4czZhUFX1XvC9Yj-11" target="rt1KR4czZhUFX1XvC9Yj-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="rt1KR4czZhUFX1XvC9Yj-14" value="Child 2" style="whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;labelBorderColor=none;sketch=0;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-10">
-          <mxGeometry x="160" y="130" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="rt1KR4czZhUFX1XvC9Yj-15" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;fontFamily=Comic Sans MS;labelBorderColor=none;sketch=0;" edge="1" parent="rt1KR4czZhUFX1XvC9Yj-10" source="rt1KR4czZhUFX1XvC9Yj-11" target="rt1KR4czZhUFX1XvC9Yj-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
+        <UserObject label="Spring Cloud Gateway" treeRoot="1" id="rt1KR4czZhUFX1XvC9Yj-45">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=0;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-42">
+            <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
