@@ -1,32 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T13:22:45.750Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="LO7lILKd0ZmydIkVLve9" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-28T13:34:38.373Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="Yyh5vS0vQZzjs_cuxU6n" version="17.2.4" type="github">
   <diagram id="eaCFjg7BmeMbXCxSYOaL" name="第 1 页">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="rt1KR4czZhUFX1XvC9Yj-83" value="MicroService Platform（PAAS）" style="swimlane;rounded=0;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="270" y="170" width="830" height="640" as="geometry" />
+          <mxGeometry x="110" y="150" width="990" height="640" as="geometry" />
         </mxCell>
         <mxCell id="rt1KR4czZhUFX1XvC9Yj-84" value="Gateway（SC Gateway）" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-83">
-          <mxGeometry x="160" y="60" width="470" height="60" as="geometry" />
+          <mxGeometry x="426" y="60" width="470" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rt1KR4czZhUFX1XvC9Yj-85" value="User Center Service" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-83">
-          <mxGeometry x="520" y="160" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="rt1KR4czZhUFX1XvC9Yj-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;labelBorderColor=none;fontFamily=Comic Sans MS;" edge="1" parent="rt1KR4czZhUFX1XvC9Yj-83" source="rt1KR4czZhUFX1XvC9Yj-87" target="rt1KR4czZhUFX1XvC9Yj-89">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="rt1KR4czZhUFX1XvC9Yj-87" value="Distribution Transaction（Seata）" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-83">
-          <mxGeometry x="320" y="300" width="310" height="50" as="geometry" />
+          <mxGeometry x="786" y="160" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rt1KR4czZhUFX1XvC9Yj-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;labelBorderColor=none;fontFamily=Comic Sans MS;" edge="1" parent="rt1KR4czZhUFX1XvC9Yj-83" source="rt1KR4czZhUFX1XvC9Yj-89" target="rt1KR4czZhUFX1XvC9Yj-91">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rt1KR4czZhUFX1XvC9Yj-89" value="Distribution Database （SHarding JDBC）" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-83">
-          <mxGeometry x="320" y="380" width="310" height="50" as="geometry" />
+          <mxGeometry x="586" y="380" width="310" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rt1KR4czZhUFX1XvC9Yj-91" value="Mysql Database Master/Slave Cluster" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-83">
-          <mxGeometry x="320" y="460" width="310" height="50" as="geometry" />
+          <mxGeometry x="586" y="460" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1KR4czZhUFX1XvC9Yj-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;labelBorderColor=none;fontFamily=Comic Sans MS;" edge="1" parent="rt1KR4czZhUFX1XvC9Yj-83" source="rt1KR4czZhUFX1XvC9Yj-93" target="rt1KR4czZhUFX1XvC9Yj-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1KR4czZhUFX1XvC9Yj-93" value="Service Resiger&lt;br&gt;（Nacos）" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-83">
+          <mxGeometry x="230" y="140" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1KR4czZhUFX1XvC9Yj-94" value="Config Center&lt;br&gt;（Nacos）" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-83">
+          <mxGeometry x="230" y="220" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1KR4czZhUFX1XvC9Yj-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;labelBorderColor=none;fontFamily=Comic Sans MS;" edge="1" parent="rt1KR4czZhUFX1XvC9Yj-83" source="rt1KR4czZhUFX1XvC9Yj-96" target="rt1KR4czZhUFX1XvC9Yj-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1KR4czZhUFX1XvC9Yj-96" value="Service&amp;nbsp;Limitation &amp;amp; baffle&lt;br&gt;（Sentinel）" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-83">
+          <mxGeometry x="230" y="295" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1KR4czZhUFX1XvC9Yj-98" value="Distribution Transaction（Seata）" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-83">
+          <mxGeometry x="230" y="380" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1KR4czZhUFX1XvC9Yj-100" value="Strategy Loadbalancer&lt;br&gt;（customize SC Loadbalancer）" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-83">
+          <mxGeometry x="20" y="140" width="183" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
