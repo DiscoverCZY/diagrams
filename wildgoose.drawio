@@ -1,41 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T13:35:02.530Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="CzSsPpt3V8mCWh2wgQda" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-28T15:13:53.150Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="H-5XwhF98UKmYS33fLlQ" version="17.2.4" type="github">
   <diagram id="eaCFjg7BmeMbXCxSYOaL" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="rt1KR4czZhUFX1XvC9Yj-83" value="MicroService Platform（PAAS）" style="swimlane;rounded=0;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="110" y="150" width="990" height="640" as="geometry" />
+          <mxGeometry x="77" y="90" width="990" height="640" as="geometry" />
         </mxCell>
         <mxCell id="rt1KR4czZhUFX1XvC9Yj-84" value="Gateway（SC Gateway）" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-83">
-          <mxGeometry x="426" y="60" width="470" height="60" as="geometry" />
+          <mxGeometry x="575" y="175" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rt1KR4czZhUFX1XvC9Yj-85" value="User Center Service" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-83">
-          <mxGeometry x="786" y="160" width="110" height="50" as="geometry" />
+          <mxGeometry x="775" y="271" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rt1KR4czZhUFX1XvC9Yj-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;labelBorderColor=none;fontFamily=Comic Sans MS;" edge="1" parent="rt1KR4czZhUFX1XvC9Yj-83" source="rt1KR4czZhUFX1XvC9Yj-89" target="rt1KR4czZhUFX1XvC9Yj-91">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rt1KR4czZhUFX1XvC9Yj-89" value="Distribution Database （SHarding JDBC）" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-83">
-          <mxGeometry x="586" y="380" width="310" height="50" as="geometry" />
+          <mxGeometry x="576" y="340" width="310" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rt1KR4czZhUFX1XvC9Yj-91" value="Mysql Database Master/Slave Cluster" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-83">
-          <mxGeometry x="586" y="460" width="310" height="50" as="geometry" />
+          <mxGeometry x="576" y="420" width="310" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rt1KR4czZhUFX1XvC9Yj-93" value="Service Resiger&lt;br&gt;（Nacos）" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-83">
-          <mxGeometry x="230" y="140" width="170" height="60" as="geometry" />
+          <mxGeometry x="379" y="176" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rt1KR4czZhUFX1XvC9Yj-94" value="Config Center&lt;br&gt;（Nacos）" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-83">
-          <mxGeometry x="230" y="220" width="170" height="60" as="geometry" />
+          <mxGeometry x="379" y="256" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rt1KR4czZhUFX1XvC9Yj-96" value="Service&amp;nbsp;Limitation &amp;amp; baffle&lt;br&gt;（Sentinel）" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-83">
-          <mxGeometry x="230" y="295" width="170" height="60" as="geometry" />
+          <mxGeometry x="379" y="333" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rt1KR4czZhUFX1XvC9Yj-98" value="Distribution Transaction（Seata）" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-83">
-          <mxGeometry x="230" y="380" width="170" height="60" as="geometry" />
+          <mxGeometry x="379" y="409" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rt1KR4czZhUFX1XvC9Yj-100" value="Strategy Loadbalancer&lt;br&gt;（customize SC Loadbalancer）" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-83">
-          <mxGeometry x="20" y="140" width="183" height="60" as="geometry" />
+        <mxCell id="rt1KR4czZhUFX1XvC9Yj-104" value="Strategy Loadbalancer&lt;br&gt;（SC Loadbalancer）" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-83">
+          <mxGeometry x="180" y="176" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1KR4czZhUFX1XvC9Yj-106" value="Service RPC Client&lt;br&gt;（Dubbo）" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-83">
+          <mxGeometry x="180" y="259" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1KR4czZhUFX1XvC9Yj-109" value="Distribution Log System&lt;br&gt;（ELK）" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-83">
+          <mxGeometry x="180" y="410" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1KR4czZhUFX1XvC9Yj-111" value="Business Services" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="rt1KR4czZhUFX1XvC9Yj-83">
+          <mxGeometry x="577" y="271" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1KR4czZhUFX1XvC9Yj-108" value="APM Monitor&lt;br&gt;（SkyWalking）" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;glass=0;labelBorderColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="261" y="425" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
